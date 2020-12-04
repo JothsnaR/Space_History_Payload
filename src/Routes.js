@@ -14,8 +14,8 @@ const RouterData = () => {
         <Router>
             <Header />
             <Switch>
-                <Route path = "/history" component = {SpacePayloads} />
-                <Route path = "/users" component = {SpaceHistory} />
+                <Route path = "/payloads" component = {SpacePayloads} />
+                <Route path = "/history" component = {SpaceHistory} />
                 <Route exact path = "/" component = {Home} />
             </Switch>
         </Router>
