@@ -38,7 +38,7 @@ class SpacePayloads extends React.Component {
                             <div key={item.id}>
                                     <div className="missionTable">
                                         <div className="title"><span>Title: </span>{item.payload_id}</div>
-                                        <div><span>Customers: </span>{item.customers[ 0 ]}</div>
+                                        <div className="customers"><span>Customers: </span>{item.customers[ 0 ]}</div>
                                         <div className="payload_type"><span>Payload_type: </span>{item.payload_type}</div>
                                         <div className="nationality"><span>Nationality: </span>{item.nationality}</div>
                                         <div className="manufacturer"><span>Manufacturer: </span>{item.manufacturer}</div>

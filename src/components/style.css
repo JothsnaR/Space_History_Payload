@@ -55,7 +55,7 @@ span {
 .metadata {
     text-align: left;
 }
-.title, .payload_type, .manufacturer, .nationality{
+.title, .payload_type, .manufacturer, .nationality, .customers{
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
